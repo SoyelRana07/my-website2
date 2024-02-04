@@ -1,0 +1,40 @@
+.gradient{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.bg{
+    background-color:antiquewhite;
+}
+.container1 img{
+    border-radius: 10%;
+    margin-bottom: 30%;
+}
+.container2 img{
+    border-radius: 50%;
+}
+.container2 p{
+    font-family: serif;
+}
+.container3{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    height: 500px;
+}
+.container5{
+    background-color: maroon;
+}
+.container6 ul{
+    color: white;
+}
